@@ -1,0 +1,86 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --green: #86efac;
+    --brown: #d4a574;
+    --sand: #faf7f0;
+    --sunset: #fbbf24;
+}
+
+header {
+    width: 100%;
+    height: 20vh;
+    border: 1px solid black; 
+
+}
+
+.navigation-links {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column; 
+    justify-content: space-between;
+}
+
+.actual-links-top {
+    width: 100%; 
+    height:50%;
+    display: flex;
+    align-items: center; 
+    justify-content: space-between;
+    border: 1px solid black;
+}
+
+.logo-and-title {
+    border: 1px solid black;
+    width: 10%;
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    list-style-type: none;    
+    margin-left: 2rem; 
+}
+
+#page-api-logo {
+    width: 2.5rem; 
+    height: 4rem;
+}
+
+#webapp-title {
+    font-size: 1.2rem; 
+    font-weight: 400;
+    margin-left: 0.2rem; 
+}
+
+.links-right-side {
+    width: 40%;
+    height: 100%; 
+    display: flex;
+    justify-content: space-around;
+    align-items: center; 
+    margin-right: 10rem; 
+    border: 1px solid black;
+    list-style-type: none;
+}
+
+.search-engine-top {
+    border: 1px solid black; 
+    width: 100%;
+    height: 50%; 
+    display: flex;
+    justify-content: center;
+    align-items: center ;
+}
+
+#search-input {
+    width: 30%;
+    height: 40%;
+    border-radius: 3rem;
+    padding-left: 2rem;
+    font-size: 1rem; 
+    margin-right: 10rem; 
+}

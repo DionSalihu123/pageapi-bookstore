@@ -1,10 +1,3 @@
-mi ja dhan ni vibe desert like po spe di sa pershtatet me ganre the librave 
-
-green: '#86efac',
-brown: '#d4a574',
-sand: '#faf7f0',
-sunset: '#fbbf24',
-
-jo shum ngjyra pak ma serizoj po vibe mu dit
-
-fixing 
+qka jam tu menu eshte qe libraria mu kan veq per libra pe kompjuter 
+page i par ajo 100vh te par me e qit ni background pic edhe about 
+edhe vibe qashtu mu kan pak kompjuter heavy tech like  
