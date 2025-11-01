@@ -1,0 +1,10 @@
+mi ja dhan ni vibe desert like po spe di sa pershtatet me ganre the librave 
+
+green: '#86efac',
+brown: '#d4a574',
+sand: '#faf7f0',
+sunset: '#fbbf24',
+
+jo shum ngjyra pak ma serizoj po vibe mu dit
+
+fixing 
