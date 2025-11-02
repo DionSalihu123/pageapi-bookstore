@@ -13,9 +13,7 @@
 
 header {
     width: 100%;
-    height: 20vh;
-    border: 1px solid black; 
-
+    height: 18vh;
 }
 
 .navigation-links {
@@ -32,11 +30,9 @@ header {
     display: flex;
     align-items: center; 
     justify-content: space-between;
-    border: 1px solid black;
 }
 
 .logo-and-title {
-    border: 1px solid black;
     width: 10%;
     display: flex; 
     justify-content: center;
@@ -46,14 +42,25 @@ header {
 }
 
 #page-api-logo {
-    width: 2.5rem; 
-    height: 4rem;
+    width: 3.5rem; 
+    height: 4.5rem;
 }
 
 #webapp-title {
-    font-size: 1.2rem; 
+    font-size: 1.5rem; 
     font-weight: 400;
-    margin-left: 0.2rem; 
+    margin-left: 0.5rem; 
+}
+
+#webapp-title  a{
+    display: inline-block;
+    text-decoration: none;
+    color: black;
+    transition: transform 0.3s cubic-bezier(.68,-0.55,.27,1.55);
+}
+
+#webapp-title a:hover {
+    transform: scale(1.2); 
 }
 
 .links-right-side {
@@ -63,24 +70,62 @@ header {
     justify-content: space-around;
     align-items: center; 
     margin-right: 10rem; 
-    border: 1px solid black;
     list-style-type: none;
 }
 
+.links-right-side li a { 
+    display: inline-block;
+    text-decoration: none;
+    color: black;
+    font-size: 1rem;
+    transition: transform 0.3s cubic-bezier(.68,-0.55,.27,1.55);
+}
+
+.links-right-side li a:hover { 
+    transform: scale(1.2);
+}
+
+#sign-in {
+    width: 10%;
+    height: 2rem; 
+    border-radius: 2rem;
+    border: 1.5px solid black;
+    transition: transform 0.3s cubic-bezier(.68,-0.55,.27,1.55);
+}
+
+#sign-in:hover {
+    transform: scale(1.2); 
+}
+
 .search-engine-top {
-    border: 1px solid black; 
     width: 100%;
     height: 50%; 
     display: flex;
     justify-content: center;
-    align-items: center ;
+    align-items: center;
+}
+
+.box-for-search {
+    width: 60%; 
+    height: 80%; 
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    border: 2px ridge; 
+    border-radius: 3rem;
 }
 
 #search-input {
-    width: 30%;
+    width: 55%;
     height: 40%;
+    border: 1px solid black; 
     border-radius: 3rem;
     padding-left: 2rem;
     font-size: 1rem; 
-    margin-right: 10rem; 
+    
+}
+
+#search-svg {
+    width: 2rem; 
+    height: 3rem; 
 }
